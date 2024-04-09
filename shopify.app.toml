@@ -3,7 +3,7 @@
 client_id = "0e31292d49ccc5d5d1bfda65fbc93239"
 name = "paypal-option"
 handle = "paypal-option"
-application_url = "https://lid-copied-flexibility-dist.trycloudflare.com"
+application_url = "https://built-saw-relevance-pl.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://lid-copied-flexibility-dist.trycloudflare.com/auth/callback",
-  "https://lid-copied-flexibility-dist.trycloudflare.com/auth/shopify/callback",
-  "https://lid-copied-flexibility-dist.trycloudflare.com/api/auth/callback"
+  "https://built-saw-relevance-pl.trycloudflare.com/auth/callback",
+  "https://built-saw-relevance-pl.trycloudflare.com/auth/shopify/callback",
+  "https://built-saw-relevance-pl.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

@@ -24,10 +24,10 @@ export function run(input) {
   // console.log(getMethod?.name)
   // console.log(getMethod?.id)
   const getTag = input?.cart?.buyerIdentity?.customer?.hasTags[0].hasTag
-  console.log(getTag)
+  // console.log(getTag)
   
   if (!getTag) {
-    console.log(`If condition = ${getTag}`)
+    // console.log(`If condition = ${getTag}`)
     return NO_CHANGES;
   }
   if (!getMethod) {
