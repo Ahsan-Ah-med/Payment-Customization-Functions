@@ -3,7 +3,7 @@
 client_id = "0e31292d49ccc5d5d1bfda65fbc93239"
 name = "paypal-option"
 handle = "paypal-option"
-application_url = "https://built-saw-relevance-pl.trycloudflare.com"
+application_url = "https://algeria-cia-origin-serving.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://built-saw-relevance-pl.trycloudflare.com/auth/callback",
-  "https://built-saw-relevance-pl.trycloudflare.com/auth/shopify/callback",
-  "https://built-saw-relevance-pl.trycloudflare.com/api/auth/callback"
+  "https://algeria-cia-origin-serving.trycloudflare.com/auth/callback",
+  "https://algeria-cia-origin-serving.trycloudflare.com/auth/shopify/callback",
+  "https://algeria-cia-origin-serving.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

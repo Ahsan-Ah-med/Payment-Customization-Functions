@@ -6,7 +6,7 @@ import {
   useAvailablePaymentOptions,
   useSelectedPaymentOptions,
 } from '@shopify/ui-extensions-react/checkout';
-
+import React, { useEffect } from 'react';
 export default reactExtension(
   'purchase.checkout.block.render',
   () => <Extension />,
@@ -19,6 +19,10 @@ function Extension() {
   const selPay = useSelectedPaymentOptions();
   console.log(availPay);
   console.log(selPay);
+  // const useCheckoutSettings = useCheckout()
+  // console.log(useCheckoutSettings);
+  
+
   return (
     <Banner title="Paypal Ui">
       {translate('welcome', { target: extension.target })}
